@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9 Мая — День Победы</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Фон -->
+    <div class="background-overlay"></div>
+
+    <!-- Салют -->
+    <canvas id="fireworksCanvas"></canvas>
+
+    <!-- Звёзды -->
+    <div class="stars"></div>
+
+    <!-- Контент -->
+    <div class="content">
+        <div class="container">
+
+            <!-- Ленты -->
+            <div class="ribbon-wrapper">
+                <div class="georgian-ribbon"></div>
+                <div class="georgian-ribbon reverse"></div>
+            </div>
+
+            <!-- Заголовок -->
+            <h1 class="main-title">
+                <span>9</span>
+                <span>МАЯ</span>
+            </h1>
+
+            <p class="subtitle">
+                День Победы в Великой Отечественной войне
+            </p>
+
+            <div class="years">
+                1945 — 2025
+            </div>
+
+            <!-- Герой -->
+            <div class="hero-card">
+                <div class="hero-icon">★</div>
+                <div>
+                    <h2>С Днём Великой Победы!</h2>
+                    <p>
+                        Мы помним подвиг народа,
+                        мужество солдат,
+                        стойкость тружеников тыла
+                        и героев, подаривших нам мирное небо.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Поздравление -->
+            <div class="congratulations">
+                <p>
+                    9 Мая — символ мужества, чести и бессмертного подвига.
+                    Пусть память о героях живёт вечно,
+                    а мир, за который они боролись,
+                    всегда будет над нашей землёй.
+                </p>
+            </div>
+
+            <!-- Блок памяти -->
+            <section class="memory-section">
+                <h2>Мы помним</h2>
+
+                <div class="memory-grid">
+
+                    <div class="memory-card">
+                        <div class="memory-number">1418</div>
+                        <div class="memory-text">
+                            дней длилась Великая Отечественная война
+                        </div>
+                    </div>
+
+                    <div class="memory-card">
+                        <div class="memory-number">27 млн</div>
+                        <div class="memory-text">
+                            жизней было отдано ради Победы
+                        </div>
+                    </div>
+
+                    <div class="memory-card">
+                        <div class="memory-number">1945</div>
+                        <div class="memory-text">
+                            год Великой Победы над фашизмом
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Цитата -->
+            <div class="quote-block">
+                <div class="quote-line"></div>
+
+                <blockquote>
+                    «Никто не забыт, ничто не забыто»
+                </blockquote>
+
+                <span>— Ольга Берггольц</span>
+            </div>
+
+            <!-- Цветок -->
+            <div class="flower-wrapper">
+                <div class="flower"></div>
+                <p>Нажмите на гвоздику ✨</p>
+            </div>
+
+            <!-- Таймер -->
+            <section class="countdown-section">
+                <h2>Память о Победе живёт</h2>
+
+                <div class="timer" id="timer">
+                    <div class="timer-box">
+                        <span id="days">00</span>
+                        <small>дней</small>
+                    </div>
+
+                    <div class="timer-box">
+                        <span id="hours">00</span>
+                        <small>часов</small>
+                    </div>
+
+                    <div class="timer-box">
+                        <span id="minutes">00</span>
+                        <small>минут</small>
+                    </div>
+
+                    <div class="timer-box">
+                        <span id="seconds">00</span>
+                        <small>секунд</small>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Команда -->
+            <section class="team">
+                <h3>Поздравление разработал</h3>
+
+                <div class="names">
+
+                    <div class="name-card main-dev">
+                        <span class="name-glow"></span>
+
+                        <div class="developer-badge">
+                            ★ Автор проекта
+                        </div>
+
+                        <span class="name">Doki</span>
+
+                        <small>
+                            Разработка дизайна, идеи проекта,
+                            анимаций и праздничного оформления
+                        </small>
+                    </div>
+
+                </div>
+
+                <div class="thanks-block">
+                    <h4>Особая благодарность</h4>
+
+                    <div class="thanks-names">
+                        <span>Дёмин Никита</span>
+                        <span>Подсухин Максим</span>
+                        <span>Комаров Андрей</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Подвал -->
+            <footer class="footer">
+                <p>
+                    Вечная память героям.
+                    Вечная слава Победе.
+                </p>
+            </footer>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
